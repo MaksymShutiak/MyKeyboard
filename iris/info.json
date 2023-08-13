@@ -1,0 +1,10 @@
+{
+    "keyboard_name": "Iris",
+    "manufacturer": "MaksymShutiak",
+    "maintainer": "MaksymShutiak",
+    "usb": {
+        "vid": "0x239A",
+        "pid": "0x0108",
+        "device_version": "0.0.1"
+    }
+}

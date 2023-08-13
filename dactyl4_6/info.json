@@ -1,0 +1,10 @@
+{
+    "keyboard_name": "Dactyl 5x6",
+    "manufacturer": "Maksym Shutiak",
+    "maintainer": "Maksym Shutiak",
+    "usb": {
+        "vid": "0x239A",
+        "pid": "0x0108",
+        "device_version": "0.0.1"
+    }
+}
