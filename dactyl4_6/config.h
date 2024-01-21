@@ -13,6 +13,3 @@
 #define DIODE_DIRECTION COL2ROW
 
 #define SOFT_SERIAL_PIN GP7
-
-// #define COMBO_VARIABLE_LEN
-// #define COMBO_TERM 40
