@@ -1,0 +1,2 @@
+west build --pristine -b seeeduino_xiao_ble -d ~/Education/MyKeyboard/zmk_dactyl_manuform_5_6_xiao/build/mks_right -- -DSHIELD=msk_right -DZMK_CONFIG=/Users/maksymshutiak/Education/MyKeyboard/zmk_dactyl_manuform_5_6_xiao
+west build --pristine -b seeeduino_xiao_ble -d ~/Education/MyKeyboard/zmk_dactyl_manuform_5_6_xiao/build/mks_left -- -DSHIELD=msk_left -DZMK_CONFIG=/Users/maksymshutiak/Education/MyKeyboard/zmk_dactyl_manuform_5_6_xiao
