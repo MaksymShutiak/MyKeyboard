@@ -1,11 +1,11 @@
 file_format: "1"
 id: msk
-name: MS Keyboard
+name: MSK Iris
 type: shield
 url: https://github.com/MaksymShutiak
 requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
-  - msk_left
-  - msk_right
+  - msk_iris_left
+  - msk_iris_right

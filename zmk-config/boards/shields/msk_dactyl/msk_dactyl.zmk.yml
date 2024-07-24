@@ -1,0 +1,11 @@
+file_format: "1"
+id: msk_dactyl
+name: MSK Dactyl
+type: shield
+url: https://github.com/MaksymShutiak
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - msk_dactyl_left
+  - msk_dactyl_right
