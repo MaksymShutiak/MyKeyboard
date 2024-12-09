@@ -1,0 +1,10 @@
+file_format: "1"
+id: msk
+name: MSK Shift
+type: shield
+url: https://github.com/MaksymShutiak
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - msk_shift

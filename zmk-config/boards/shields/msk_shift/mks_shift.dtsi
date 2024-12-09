@@ -1,0 +1,13 @@
+&xiao_spi {
+    status = "okay";
+    cs-gpios = <&xiao_d 7 GPIO_ACTIVE_LOW>;
+    shifter: 595@0 {
+        compatible = "zmk,gpio-595";
+        status = "okay";
+        gpio-controller;
+        spi-max-frequency = <600000>;
+        reg = <0>;
+        #gpio-cells = <2>;
+        ngpios = <24>;
+    };
+};

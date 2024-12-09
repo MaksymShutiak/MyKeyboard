@@ -1,0 +1,10 @@
+if SHIELD_MSK_SHIFT
+
+config ZMK_KEYBOARD_NAME
+    default "MKS Shift"
+
+config SPI
+    default y
+
+endif
+

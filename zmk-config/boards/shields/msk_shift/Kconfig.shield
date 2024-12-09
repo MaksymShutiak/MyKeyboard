@@ -1,0 +1,3 @@
+config SHIELD_MKS_SHIFT
+    def_bool $(shields_list_contains,mks_shift)
+    select SPI
