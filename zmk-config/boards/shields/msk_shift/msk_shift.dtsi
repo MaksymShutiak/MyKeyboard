@@ -5,7 +5,7 @@
         compatible = "zmk,gpio-595";
         status = "okay";
         gpio-controller;
-        spi-max-frequency = <600000>;
+        spi-max-frequency = <200000>;
         reg = <0>;
         #gpio-cells = <2>;
         ngpios = <24>;

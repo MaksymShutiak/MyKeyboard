@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "mks_shift.dtsi"
+#include "msk_shift.dtsi"
 
 / { 
     chosen {
@@ -20,18 +20,18 @@
 
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
-        diode-direction = "col2row"; 
+        diode-direction = "col2row";  
+
+        col-gpios
+            = <&shifter 0 GPIO_ACTIVE_HIGH> // col1 in the schematic
+            , <&shifter 1 GPIO_ACTIVE_HIGH> // col2 in the schematic
+            , <&shifter 2 GPIO_ACTIVE_HIGH> // col3 in the schematic
+            ;
 
         row-gpios
             = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row A from the schematic file
             , <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row B from the schematic file
             , <&xiao_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row C from the schematic file
-            ;
-
-        col-gpios
-            = <&shifter 3 GPIO_ACTIVE_HIGH> // col1 in the schematic
-            , <&shifter 4 GPIO_ACTIVE_HIGH> // col2 in the schematic
-            , <&shifter 5 GPIO_ACTIVE_HIGH> // col3 in the schematic
             ;
         
     };

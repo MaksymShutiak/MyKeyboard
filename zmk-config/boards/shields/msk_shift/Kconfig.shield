@@ -1,2 +1,2 @@
-config SHIELD_MKS_SHIFT
-    def_bool $(shields_list_contains,mks_shift)
+config SHIELD_MSK_SHIFT
+    def_bool $(shields_list_contains,msk_shift)
